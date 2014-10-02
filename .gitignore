@@ -1,0 +1,6 @@
+#Ignore these
+*.bak
+*.html
+/html/*
+/database/*
+/cfsi/*
