@@ -15,7 +15,8 @@ require "ohcsite/webbodyheader.php" ?>
 	<div id="maincontent" class="container">
 	<div class="maincontent">
 	<p>
-	<!--<dt><b><a href="http://dbs.ohiohistory.org/africanam"> African American Experience in Ohio, 1850-1920</a></b></dt>!-->
+	<dt><b><a href="http://dbs.ohiohistory.orgafricanam/html"> African American Experience in Ohio, 1850-1920</a></b></dt>
+	<blockquote cite="http://dbs.ohiohistory.orgafricanam/html">The African-American Experience in Ohio 1850-1920 is a digital collection brought together from a number of individual sources specifically for this project. These sources include manuscript collections, newspaper articles, serials, photographs, and pamphlets. It was our intention to bring together as many diverse sources as possible to provide evidence of the diversity and complexity of African-American culture during this time period and to let those sources tell their own story without interpretation.</blockquote>
 	<dt><b><a href="http://www.ohiomemory.org/cdm/landingpage/collection/p15005coll34">National Afro-American Museum and Cultural Center (NAAMCC)</a></dt></b>
 	
 	<blockquote cite="http://www.ohiomemory.org/cdm/landingpage/collection/p15005coll34">The National Afro-American Museum and Cultural Center near Dayton aims to educate the public about African American history and culture from African origins to the present through a variety of programs, including museum exhibits, research and publications, visiting scholars, oral and visual history and adult and children's educational activities.</blockquote>
