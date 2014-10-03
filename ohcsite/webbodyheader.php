@@ -6,6 +6,7 @@
 <title>African Americans in Ohio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <link media="ALL" rel="stylesheet" type="text/css" href="<?php echo($path."ohcsite/style.css")?>">
+
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/json2/20121008/json2.js"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
@@ -14,8 +15,10 @@
 <link rel="stylesheet" href="formly/formly.css" type="text/css" />
 <script type="text/javascript">
 	
-	$(document).ready(function() {		
-		$('#searchform').formly(); 
+	$(document).ready(function() {
+		$('#topNav li').mouseover( function Dropdown(){$(this).children(".level1").css('display','block')});
+		$('#topNav li').mouseout( function Dropdown(){$(this).children(".level1").css('display','none').fadeOut();});		
+		/*$('#searchform').formly();*/
 	});
 	
 	function validateForm() {
@@ -140,7 +143,7 @@
 			<div id="nav-main"><!--Drop Down Navigation!-->
 				<!--?xml version="1.0" encoding="utf-16"?-->
 				<ul class="mainMenu" id="topNav">						
-					<li id="museums-and-historic-sites" class="link1"><a href="http://www.ohiohistory.org/museums-and-historic-sites" class="navLevel2" title="Museums &amp; Historic Sites"><span>Museums &amp; Historic Sites</span></a>
+					<li id="museums-and-historic-sites" class="link1" ><a href="http://www.ohiohistory.org/museums-and-historic-sites" class="navLevel2" title="Museums &amp; Historic Sites"><span>Museums &amp; Historic Sites</span></a>
 					<div class="level1" style="display: none;">
 						<div class="level1-inner">
 							<ul>
