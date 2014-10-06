@@ -520,9 +520,9 @@ a.submit,
 #nav-main ul ul li {
 	display:block;
 	float:left;
-	width:210px;
+	width:220px;
 	margin-right:20px;
-	font-size:12px;
+	font-size:14px;
 	text-align:left;
 	font-family:Georgia, Palatino,'Palatino Linotype', Times, 'Times New Roman', serif;
 	padding:5px 0;
@@ -532,6 +532,7 @@ a.submit,
 	color:#000000;
 	display:block;
 	margin:0;
+	font-size:14px;
 	line-height:normal;
 	height:auto;
 }
@@ -548,7 +549,7 @@ a.submit,
 	float:none;
 	width:auto;
 	margin:0 0 .5em 0;
-	font-size:12px;
+	font-size:14px;
 	padding:0;
 }
 

@@ -16,8 +16,8 @@
 <script type="text/javascript">
 	
 	$(document).ready(function() {
-		$('#topNav li').mouseover( function Dropdown(){$(this).children(".level1").css('display','block')});
-		$('#topNav li').mouseout( function Dropdown(){$(this).children(".level1").css('display','none').fadeOut();});		
+		$('.level1').hide();
+		$('#topNav li').hover( function(){$(this).children(".level1").show(500)}, function(){$(this).children(".level1").hide(500);});
 		/*$('#searchform').formly();*/
 	});
 	
